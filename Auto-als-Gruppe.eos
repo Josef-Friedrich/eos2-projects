@@ -1,0 +1,38 @@
+auto:Gruppe
+
+karosserie:Rechteck
+karosserie.eckenSetzen(0, 30, 60, 10)
+karosserie.füllfarbeSetzen(gelb)
+
+heckScheibe:Dreieck
+heckScheibe.eckenSetzen(10, 30, 20, 50, 20, 30)
+heckScheibe.füllfarbeSetzen(blau)
+
+dach:Rechteck
+dach.eckenSetzen(20, 50, 40, 30)
+dach.füllfarbeSetzen(gelb)
+
+windschutzScheibe:Dreieck
+windschutzScheibe.eckenSetzen(40, 50, 40, 30, 50, 30)
+windschutzScheibe.füllfarbeSetzen(blau)
+
+radHinten:Kreis 
+radHinten.radiusSetzen(10)
+radHinten.mittelpunktSetzen(10, 10)
+radHinten.füllfarbeSetzen(schwarz)
+
+radVorne:Kreis 
+radVorne.radiusSetzen(10)
+radVorne.mittelpunktSetzen(50, 10)
+radVorne.füllfarbeSetzen(schwarz)
+
+auto.hinzufügen(karosserie)
+auto.hinzufügen(heckScheibe)
+auto.hinzufügen(dach)
+auto.hinzufügen(windschutzScheibe)
+auto.hinzufügen(radHinten)
+auto.hinzufügen(radVorne)
+
+wiederhole 200 mal
+   auto.verschieben(1,0)
+*wiederhole
