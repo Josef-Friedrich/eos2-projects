@@ -1,0 +1,13 @@
+// https://www.lathanda.de/index.php/eos-2/eos2-beispiele-menue/32-spirale
+stift:Turtle
+stift.stiftAuf()
+stift.setzeTurtleXY(-80,-80)
+stift.stiftAb()
+stift.turtleSichtbarSetzen(falsch)
+l:Real
+l = 160
+wiederhole 1000 mal
+  stift.vor(l)
+  stift.linksDrehen(90)
+  l = l * 0.99
+*wiederhole
