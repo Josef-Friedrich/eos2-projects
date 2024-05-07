@@ -1,0 +1,259 @@
+// https://eos-programm-code.de.tl/Code-2-d--EOS--g-Boote-g-.htm
+// https://www.youtube.com/watch?v=9IJlnlFsOcM
+F:FENSTER
+wasser:RECHTECK
+himmel:RECHTECK
+buck:DREIECK
+heck:RECHTECK
+bscheibe:DREIECK
+schanze:DREIECK
+bsitzv:LINIE
+bsitzh:LINIE
+strich:LINIE
+boot:GRUPPE
+ 
+F.zeichne(himmel)
+f.zeichne(bsitzv)
+f.zeichne(bsitzh)
+F.zeichne(buck)
+F.zeichne(heck)
+F.zeichne(bscheibe)
+f.zeichne(schanze)
+f.zeichne(strich)
+f.zeichne(wasser)
+ 
+F.hintergrundfarbeSetzen(weiß)
+F.breiteSetzen(3000)
+F.höheSetzen(1500)
+F.verschiebe(-1400,-500)
+wasser.eckenSetzen(-3000,0,3000,0)
+wasser.höheSetzen(3000)
+wasser.füllfarbeSetzen(blau)
+himmel.eckenSetzen(-3000,3000,3000,3000)
+himmel.höheSetzen(3000)
+himmel.füllfarbeSetzen(hellblau)
+buck.eckenSetzen(20,50,-50,50,-50,-20)
+buck.füllfarbeSetzen(weiß)
+heck.eckenSetzen(-50,50,-200,50)
+heck.höheSetzen(70)
+heck.füllfarbeSetzen(weiß)
+bscheibe.eckenSetzen(0,50,-80,50,-80,100)
+bscheibe.füllfarbeSetzen(blau)
+bsitzv.punkt1Setzen(-120,80)
+bsitzv.punkt2Setzen(-110,0)
+bsitzv.linienStärkeSetzen(10)
+bsitzv.farbeSetzen(rot)
+bsitzh.punkt1Setzen(-160,80)
+bsitzh.punkt2Setzen(-150,0)
+bsitzh.linienStärkeSetzen(10)
+bsitzh.farbeSetzen(rot)
+strich.punkt1Setzen(-25,20)
+strich.punkt2Setzen(-190,20)
+strich.farbeSetzen(rot)
+strich.linienStärkeSetzen(20)
+schanze.eckenSetzen(-305,0,-200,0,-200,50)
+schanze.füllfarbeSetzen(grau)
+ 
+boot.schlucke(buck)
+boot.schlucke(heck)
+boot.schlucke(bscheibe)
+boot.schlucke(bsitzv)
+boot.schlucke(bsitzh)
+boot.schlucke(strich)
+ 
+boot.verschieben(-1500,0)
+ 
+wiederhole 1230 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,1)
+   boot.drehen(1)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(2,1)
+*wiederhole 
+ 
+wiederhole 150 mal
+   boot.verschieben(1,-1)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,-1)
+   boot.drehen(-1)
+*wiederhole
+ 
+wiederhole 900 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+boot.verschieben(-2684,0)
+buck.füllfarbeSetzen(rot)
+heck.füllfarbeSetzen(rot)
+strich.farbeSetzen(gelb)
+ 
+wiederhole 1230 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,1)
+   boot.drehen(1)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(2,1)
+*wiederhole 
+ 
+wiederhole 180 mal
+   boot.verschieben(2,0)
+   boot.drehen(2)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(1,-1)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,-1)
+   boot.drehen(-1)
+*wiederhole
+ 
+wiederhole 600 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+boot.verschieben(-2944,0)
+buck.füllfarbeSetzen(gelb)
+heck.füllfarbeSetzen(gelb)
+strich.farbeSetzen(schwarz)
+ 
+wiederhole 1430 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,1)
+   boot.drehen(1)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(2,1)
+*wiederhole 
+ 
+wiederhole 180 mal
+   boot.verschieben(2,0)
+   boot.drehen(-2)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(1,-1)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,-1)
+   boot.drehen(-1)
+*wiederhole
+ 
+wiederhole 800 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+boot.verschieben(-2944,0)
+heck.füllfarbeSetzen(hellgrün)
+buck.füllfarbeSetzen(hellgrün)
+strich.farbeSetzen(grün)
+ 
+wiederhole 1230 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,1)
+   boot.drehen(1)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(2,1)
+*wiederhole 
+ 
+wiederhole 360 mal
+   boot.verschieben(2,0)
+   boot.drehen(2)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(1,-1)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,-1)
+   boot.drehen(-1)
+*wiederhole
+ 
+wiederhole 500 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+boot.verschieben(-3004,0)
+buck.füllfarbeSetzen(schwarz)
+heck.füllfarbeSetzen(schwarz)
+strich.farbeSetzen(weiß)
+ 
+wiederhole 1230 mal
+   boot.verschieben(1,0)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,1)
+   boot.drehen(1)
+*wiederhole
+ 
+wiederhole 150 mal
+   boot.verschieben(2,1)
+*wiederhole 
+ 
+wiederhole 270 mal
+   boot.verschieben(2,0)
+   boot.drehen(-2)
+*wiederhole
+ 
+wiederhole 180 mal
+   boot.verschieben(1,-1)
+*wiederhole
+ 
+wiederhole 26 mal 
+   boot.verschieben(1,-1)
+   boot.drehen(-1)
+*wiederhole
+ 
+wiederhole 200 mal
+   boot.verschieben(0,-1)
+*wiederhole
+ 
+buck.füllfarbeSetzen(hellgrau)
+heck.füllfarbeSetzen(hellgrau)
+strich.farbeSetzen(grau)
+boot.drehen(180)
+boot.verschieben(0,226)
+boot.verschieben(-2354,0)
+ 
+wiederhole 630 mal
+   boot.verschieben(2,0)
+*wiederhole
+ 
+wiederhole 26 mal
+   boot.verschieben(2,1)
+   boot.drehen(1)
+*wiederhole
+ 
+wiederhole 110 mal
+   boot.verschieben(2,1)
+*wiederhole
+ 
+wiederhole 500 mal
+   boot.verschieben(3,2)
+   boot.drehen(1)
+*wiederhole
