@@ -1,0 +1,21 @@
+// https://www.youtube.com/watch?v=PCS9xtyAllc
+
+erde:Rechteck
+himmel:Rechteck
+all:Rechteck 
+rump:Rechteck
+spitze:Dreieck
+turbine:Dreieck
+standfuss1:Rechteck
+standfuss2:Rechteck
+sonne:Kreis
+mond:Kreis
+
+erde.eckenSetzen(-300,0,300,-300)
+erde.füllfarbeSetzen(braun)
+
+himmel.eckenSetzen(-300,300,300,0)
+himmel.füllfarbeSetzen(blau)
+
+all.eckenSetzen(-300,600,300,-300)
+all.füllfarbeSetzen(schwarz)
