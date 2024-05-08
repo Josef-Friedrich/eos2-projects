@@ -1,21 +1,67 @@
 // https://www.youtube.com/watch?v=PCS9xtyAllc
+// https://drive.google.com/file/d/1Z7NuUkMzLtPCxHZLtNFVv2KLjvFlEIrl/view
+// https://sites.google.com/view/thotostutorial/informatik/jahrgang-7-wp-if/03-eos/06raketenstart-mondlandung
 
 erde:Rechteck
-himmel:Rechteck
-all:Rechteck 
-rump:Rechteck
-spitze:Dreieck
-turbine:Dreieck
-standfuss1:Rechteck
-standfuss2:Rechteck
-sonne:Kreis
-mond:Kreis
-
-erde.eckenSetzen(-300,0,300,-300)
+erde.eckenSetzen(-300, 0, 300, -300)
 erde.füllfarbeSetzen(braun)
 
-himmel.eckenSetzen(-300,300,300,0)
+himmel:Rechteck
+himmel.eckenSetzen(-300, 0, 300, 300)
 himmel.füllfarbeSetzen(blau)
 
-all.eckenSetzen(-300,600,300,-300)
+all:Rechteck
+all.eckenSetzen(-300, 300, 300, 600)
 all.füllfarbeSetzen(schwarz)
+
+// Rakete
+rumpf:Rechteck
+rumpf.eckenSetzen(-30, -30, 30, 30)
+rumpf.füllfarbeSetzen(grau)
+spitze:Dreieck
+spitze.eckenSetzen(-30, 30, 30, 30, 0, 60)
+spitze.füllfarbeSetzen(grau)
+turbine:Dreieck
+turbine.eckenSetzen(-25, -30, 25, -30, 0, -45)
+turbine.füllfarbeSetzen(rot)
+standfuss1:Rechteck
+standfuss1.eckenSetzen(-20, -20, -15, -35)
+standfuss1.füllfarbeSetzen(grün)
+standfuss2:Rechteck
+standfuss2.eckenSetzen(20, -20, 15, -35)
+standfuss2.füllfarbeSetzen(grün)
+
+// Sonne setzen
+sonne:Kreis
+sonne.radius = 20
+sonne.mittelpunktSetzen(-150, 200)
+sonne.füllfarbeSetzen(gelb)
+
+// Mond setzen
+mond:Kreis
+mond.radius = 60
+mond.mittelpunktSetzen(0, 400)
+mond.füllfarbeSetzen(weiß)
+
+// Hintergrund einrichten 
+hintergrund:Gruppe 
+hintergrund.schlucke(erde)
+hintergrund.schlucke(himmel)
+hintergrund.schlucke(all)
+hintergrund.schlucke(sonne)
+hintergrund.schlucke(mond)
+
+//Rakete zusammensetzen
+rakete:Gruppe
+rakete.schlucke(rumpf)
+rakete.schlucke(spitze)
+rakete.schlucke(turbine)
+rakete.schlucke(standfuss1)
+rakete.schlucke(standfuss2)
+
+//Raketenstart und Mondlandung
+wiederhole 100 mal
+	hintergrund.verschieben(0,-4)
+	Rakete.strecken(0.9)
+	Rakete.strecken(1.09)
+*wiederhole
