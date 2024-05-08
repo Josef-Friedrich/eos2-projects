@@ -1,0 +1,591 @@
+// https://sites.google.com/view/thotostutorial/informatik/jahrgang-7-wp-if/03-eos/08sch%C3%BClerinnen-galerie
+// https://drive.google.com/file/d/1vpsIxQFi89SbJ1PA8nMkvy0oSSPk1djb/view
+// https://www.youtube.com/watch?v=-of6WdN7ja0
+Erde:RECHTECK
+Erde1:RECHTECK
+Himmel:RECHTECK
+Bahn:RECHTECK
+Bahn2:RECHTECK
+Landebahn:RECHTECK
+Turm:RECHTECK
+Turm1:RECHTECK
+Turm2:RECHTECK
+Turm3:RECHTECK
+Turm4:RECHTECK
+Turm5:RECHTECK
+Turm6:RECHTECK
+Turm7:RECHTECK
+Dach:DREIECK
+Stab:RECHTECK
+Stabteil:DREIECK
+Fahne:DREIECK
+Gebäude:RECHTECK
+Gebäudedach:DREIECK
+Haus:RECHTECK
+Hausdach:DREIECK
+FensterH:QUADRAT
+FensterH2:QUADRAT
+FensterH3:QUADRAT
+FensterH4:QUADRAT
+FensterF:RECHTECK
+Baum:RECHTECK
+Baum1:RECHTECK
+Baum2:RECHTECK
+Baum3:RECHTECK
+Baum4:RECHTECK
+Baum5:RECHTECK
+Krone:KREIS
+Krone1:KREIS
+Krone2:KREIS
+Krone3:KREIS
+Krone4:KREIS
+Krone5:KREIS
+w:KREIS
+wr:KREIS
+wm:KREIS
+ws:KREIS
+wk:KREIS
+wl:KREIS
+wa:KREIS
+wb:KREIS
+wc:KREIS
+wd:KREIS
+we:KREIS
+wf:KREIS
+wg:KREIS
+wh:KREIS
+wi:KREIS
+wj:KREIS
+wp:KREIS
+wo:KREIS
+wn:KREIS
+wq:KREIS
+wt:KREIS
+wu:KREIS
+wv:KREIS
+ww:KREIS
+wx:KREIS
+wy:KREIS
+wz:KREIS
+Makierung:RECHTECK
+Makierung1:RECHTECK
+Makierung2:RECHTECK
+Makierung3:RECHTECK
+Makierung4:RECHTECK
+Makierung5:RECHTECK
+Makierung6:RECHTECK
+Makierung7:RECHTECK
+Makierung8:RECHTECK
+Makierung9:RECHTECK
+Landemakierung:RECHTECK
+Landemakierung1:RECHTECK
+Landemakierung2:RECHTECK
+Landemakierung3:RECHTECK
+Landemakierung4:RECHTECK
+Landemakierung5:RECHTECK
+Landemakierung6:RECHTECK
+Landemakierung7:RECHTECK
+Landemakierung8:RECHTECK
+Landemakierung9:RECHTECK
+Rumpf:ELLIPSE
+Flügel:DREIECK
+Fuß1:RECHTECK
+Fuß2:RECHTECK
+Reifen1:KREIS
+Reifen2:KREIS
+Heck:DREIECK
+Heck2:DREIECK
+Sonne:KREIS
+Fenster:RECHTECK
+Fenster1:RECHTECK
+Fenster2:RECHTECK
+Fenster3:RECHTECK
+Fenster4:RECHTECK
+Fenster5:RECHTECK
+Fenster6:RECHTECK
+Tür:RECHTECK
+Tür2:RECHTECK
+T:TEXTFELD
+// Hintergrund
+Hintergrund:GRUPPE
+Hintergrund.schlucke(Erde)
+Hintergrund.schlucke(Erde1)
+Hintergrund.schlucke(Himmel)
+Hintergrund.schlucke(Bahn)
+Hintergrund.schlucke(Bahn2)
+Hintergrund.schlucke(Landebahn)
+Hintergrund.schlucke(Turm)
+Hintergrund.schlucke(Turm1)
+Hintergrund.schlucke(Turm2)
+Hintergrund.schlucke(Turm3)
+Hintergrund.schlucke(Turm4)
+Hintergrund.schlucke(Turm5)
+Hintergrund.schlucke(Turm6)
+Hintergrund.schlucke(Turm7)
+Hintergrund.schlucke(Dach)
+Hintergrund.schlucke(Stab)
+Hintergrund.schlucke(Stabteil)
+Hintergrund.schlucke(Fahne)
+Hintergrund.schlucke(Gebäude)
+Hintergrund.schlucke(Gebäudedach)
+Hintergrund.schlucke(Haus)
+Hintergrund.schlucke(Hausdach)
+Hintergrund.schlucke(Tür2)
+Hintergrund.schlucke(FensterH)
+Hintergrund.schlucke(FensterH2)
+Hintergrund.schlucke(FensterH3)
+Hintergrund.schlucke(FensterH4)
+Hintergrund.schlucke(FensterF)
+Hintergrund.schlucke(Baum)
+Hintergrund.schlucke(Krone)
+Hintergrund.schlucke(Baum1)
+Hintergrund.schlucke(Krone1)
+Hintergrund.schlucke(Baum2)
+Hintergrund.schlucke(Krone2)
+Hintergrund.schlucke(Baum3)
+Hintergrund.schlucke(Krone3)
+Hintergrund.schlucke(Baum4)
+Hintergrund.schlucke(Krone4)
+Hintergrund.schlucke(Baum5)
+Hintergrund.schlucke(Krone5)
+Hintergrund.schlucke(Sonne)
+Hintergrund.schlucke(w)
+Hintergrund.schlucke(wr)
+Hintergrund.schlucke(wl)
+Hintergrund.schlucke(wk)
+Hintergrund.schlucke(ws)
+Hintergrund.schlucke(wm)
+Hintergrund.schlucke(wa)
+Hintergrund.schlucke(wb)
+Hintergrund.schlucke(wc)
+Hintergrund.schlucke(wd)
+Hintergrund.schlucke(we)
+Hintergrund.schlucke(wf)
+Hintergrund.schlucke(wh)
+Hintergrund.schlucke(wg)
+Hintergrund.schlucke(wi)
+Hintergrund.schlucke(wj)
+Hintergrund.schlucke(wp)
+Hintergrund.schlucke(wo)
+Hintergrund.schlucke(wt)
+Hintergrund.schlucke(wq)
+Hintergrund.schlucke(wn)
+Hintergrund.schlucke(wu)
+Hintergrund.schlucke(wv)
+Hintergrund.schlucke(ww)
+Hintergrund.schlucke(wx)
+Hintergrund.schlucke(wy)
+Hintergrund.schlucke(wz)
+Hintergrund.schlucke(Makierung)
+Hintergrund.schlucke(Makierung1)
+Hintergrund.schlucke(Makierung2)
+Hintergrund.schlucke(Makierung3)
+Hintergrund.schlucke(Makierung4)
+Hintergrund.schlucke(Makierung5)
+Hintergrund.schlucke(Makierung6)
+Hintergrund.schlucke(Makierung7)
+Hintergrund.schlucke(Makierung8)
+Hintergrund.schlucke(Landemakierung1)
+Hintergrund.schlucke(Landemakierung2)
+Hintergrund.schlucke(Landemakierung3)
+Hintergrund.schlucke(Landemakierung4)
+Hintergrund.schlucke(Landemakierung5)
+Hintergrund.schlucke(Landemakierung6)
+Hintergrund.schlucke(Landemakierung7)
+Hintergrund.schlucke(Landemakierung8)
+Hintergrund.schlucke(Landemakierung9)
+Hintergrund.schlucke(T)
+// Flugzeug
+Flugzeug:GRUPPE
+Flugzeug.schlucke(Rumpf)
+Flugzeug.schlucke(Tür)
+Flugzeug.schlucke(Heck)
+Flugzeug.schlucke(Heck2)
+Flugzeug.schlucke(Flügel)
+Flugzeug.schlucke(Reifen1)
+Flugzeug.schlucke(Reifen2)
+Flugzeug.schlucke(Fenster)
+Flugzeug.schlucke(Fenster1)
+Flugzeug.schlucke(Fenster2)
+Flugzeug.schlucke(Fenster3)
+Flugzeug.schlucke(Fenster4)
+Flugzeug.schlucke(Fenster5)
+Flugzeug.schlucke(Fuß1)
+Flugzeug.schlucke(Fuß2)
+// Erde
+Erde.eckenSetzen(-970,25,-500,-700)
+Erde.füllfarbeSetzen(grün)
+Erde1.eckenSetzen(-350,25,6000,-700)
+Erde1.füllfarbeSetzen(grün)
+// Himmel
+Himmel.eckenSetzen(-970,25,6000,1000)
+Himmel.füllfarbeSetzen(blau)
+// Bahn
+Bahn.eckenSetzen(-500,25,800,-100)
+Bahn.füllfarbeSetzen(grau)
+Bahn2.eckenSetzen(-500,-100,-350,-600)
+Bahn2.füllfarbeSetzen(grau)
+Landebahn.eckenSetzen(3200,25,4500,-100)
+Landebahn.füllfarbeSetzen(grau)
+// Turm
+Turm.eckenSetzen(-730,-50,-600,0)
+Turm.füllfarbeSetzen(rot)
+Turm1.eckenSetzen(-730,0,-600,50)
+Turm1.füllfarbeSetzen(weiß)
+Turm2.eckenSetzen(-730,50,-600,100)
+Turm2.füllfarbeSetzen(rot)
+Turm3.eckenSetzen(-730,100,-600,150)
+Turm3.füllfarbeSetzen(weiß)
+Turm4.eckenSetzen(-730,150,-600,200)
+Turm4.füllfarbeSetzen(rot)
+Turm5.eckenSetzen(-730,200,-600,250)
+Turm5.füllfarbeSetzen(weiß)
+Turm6.eckenSetzen(-730,250,-600,300)
+Turm6.füllfarbeSetzen(rot)
+Turm7.eckenSetzen(-730,300,-600,350)
+Turm7.füllfarbeSetzen(weiß)
+Dach.eckenSetzen(-750,350,-580,350,-665,410)
+Dach.füllfarbeSetzen(schwarz)
+Stab.eckenSetzen(-710,379,-720,460)
+Stabteil.eckenSetzen(-710,379,-720,379,-720,369)
+Stab.füllfarbeSetzen(schwarz)
+Stabteil.füllfarbeSetzen(schwarz)
+Fahne.eckenSetzen(-710,460,-710,430,-585,435)
+Fahne.füllfarbeSetzen(rot)
+// Flughafen
+Gebäude.eckenSetzen(-100,-245,700,-510)
+Gebäude.füllfarbeSetzen(schwarz)
+Gebäudedach.eckenSetzen(-120,-245,720,-245,300,-150)
+Gebäudedach.füllfarbeSetzen(rot)
+FensterF.eckenSetzen(0,-325,600,-425)
+FensterF.füllfarbeSetzen(grau)
+T.zeileHinzufügen('Flughafen')
+T.schriftgrößeSetzen(20)
+T.schriftfarbeSetzen(schwarz)
+T.verschiebenNach(200,-260)
+T.randfarbeSetzen(schwarz)
+// Makierung
+Makierung.eckenSetzen(-400,-35,-300,-45)
+Makierung.füllfarbeSetzen(schwarz)
+Makierung1.eckenSetzen(-250,-35,-150,-45)
+Makierung1.füllfarbeSetzen(schwarz)
+Makierung2.eckenSetzen(-100,-35,0,-45)
+Makierung2.füllfarbeSetzen(schwarz)
+Makierung3.eckenSetzen(50,-35,150,-45)
+Makierung3.füllfarbeSetzen(schwarz)
+Makierung4.eckenSetzen(200,-35,300,-45)
+Makierung4.füllfarbeSetzen(schwarz)
+Makierung5.eckenSetzen(350,-35,450,-45)
+Makierung5.füllfarbeSetzen(schwarz)
+Makierung6.eckenSetzen(-500,-35,-450,-45)
+Makierung6.füllfarbeSetzen(schwarz)
+Makierung7.eckenSetzen(500,-35,600,-45)
+Makierung7.füllfarbeSetzen(schwarz)
+Makierung8.eckenSetzen(750,-35,650,-45)
+Makierung8.füllfarbeSetzen(schwarz)
+Landemakierung1.eckenSetzen(3200,-35,3300,-45)
+Landemakierung1.füllfarbeSetzen(schwarz)
+Landemakierung2.eckenSetzen(3350,-35,3450,-45)
+Landemakierung2.füllfarbeSetzen(schwarz)
+Landemakierung3.eckenSetzen(3500,-35,3600,-45)
+Landemakierung3.füllfarbeSetzen(schwarz)
+Landemakierung4.eckenSetzen(3650,-35,3750,-45)
+Landemakierung4.füllfarbeSetzen(schwarz)
+Landemakierung5.eckenSetzen(3800,-35,3900,-45)
+Landemakierung5.füllfarbeSetzen(schwarz)
+Landemakierung6.eckenSetzen(3950,-35,4050,-45)
+Landemakierung6.füllfarbeSetzen(schwarz)
+Landemakierung7.eckenSetzen(4100,-35,4200,-45)
+Landemakierung7.füllfarbeSetzen(schwarz)
+Landemakierung8.eckenSetzen(4250,-35,4350,-45)
+Landemakierung8.füllfarbeSetzen(schwarz)
+Landemakierung9.eckenSetzen(4400,-35,4500,-45)
+Landemakierung9.füllfarbeSetzen(schwarz)
+// Sonne
+Sonne.füllfarbeSetzen(gelb)
+Sonne.mittelpunktSetzen(-420,580)
+Sonne.radiusSetzen(100)
+// Bäume
+Baum.eckenSetzen(1000,-30,1040,70)
+Baum.füllfarbeSetzen(braun)
+Krone.mittelpunktSetzen(1020,100)
+Krone.radiusSetzen(50)
+Krone.füllfarbeSetzen(grün)
+Baum1.eckenSetzen(1737,-50,1791,60)
+Baum1.füllfarbeSetzen(braun)
+Krone1.mittelpunktSetzen(1763 ,80)
+Krone1.radiusSetzen(45)
+Krone1.füllfarbeSetzen(grün)
+Baum2.eckenSetzen(1350,-70,1390,40)
+Baum2.füllfarbeSetzen(braun)
+Krone2.mittelpunktSetzen(1370,40)
+Krone2.radiusSetzen(60)
+Krone2.füllfarbeSetzen(grün)
+Baum3.eckenSetzen(1940,0,1980,120)
+Baum3.füllfarbeSetzen(braun)
+Krone3.mittelpunktSetzen(1960,140)
+Krone3.radiusSetzen(50)
+Krone3.füllfarbeSetzen(grün)
+Baum4.eckenSetzen(2200,-20,2240,80)
+Baum4.füllfarbeSetzen(braun)
+Krone4.mittelpunktSetzen(2220,100)
+Krone4.radiusSetzen(40)
+Krone4.füllfarbeSetzen(grün)
+Baum5.eckenSetzen(2530,-10,2580,100)
+Baum5.füllfarbeSetzen(braun)
+Krone5.mittelpunktSetzen(2555,130)
+Krone5.radiusSetzen(60)
+Krone5.füllfarbeSetzen(grün)
+// Haus
+Haus.eckenSetzen(2650,-50,2850,100)
+Haus.füllfarbeSetzen(weiß)
+Hausdach.eckenSetzen(2640,100,2860,100,2750,150)
+Hausdach.füllfarbeSetzen(rot)
+Tür2.eckenSetzen(2720,-50,2760,25)
+Tür2.füllfarbeSetzen(schwarz)
+FensterH.linksObenSetzen(2670,-10)
+FensterH.seitenlängeSetzen(15)
+FensterH.füllfarbeSetzen(schwarz)
+FensterH2.linksObenSetzen(2780,-10)
+FensterH2.seitenlängeSetzen(15)
+FensterH2.füllfarbeSetzen(schwarz)
+FensterH3.linksObenSetzen(2680,55)
+FensterH3.seitenlängeSetzen(15)
+FensterH3.füllfarbeSetzen(schwarz)
+FensterH4.linksObenSetzen(2770,55)
+FensterH4.seitenlängeSetzen(15)
+FensterH4.füllfarbeSetzen(schwarz)
+// Wolken
+w.füllfarbeSetzen(weiß)
+w.mittelpunktSetzen(375,290)
+w.radiusSetzen(40)
+wr.füllfarbeSetzen(weiß)
+wr.mittelpunktSetzen(400,270)
+wr.radiusSetzen(40)
+wl.füllfarbeSetzen(weiß)
+wl.mittelpunktSetzen(340,270)
+wl.radiusSetzen(40)
+wk.füllfarbeSetzen(weiß)
+wk.mittelpunktSetzen(-340,340)
+wk.radiusSetzen(40)
+ws.füllfarbeSetzen(weiß)
+ws.mittelpunktSetzen(-360,320)
+ws.radiusSetzen(40)
+wm.füllfarbeSetzen(weiß)
+wm.mittelpunktSetzen(-300,320)
+wm.radiusSetzen(40)
+wa.füllfarbeSetzen(weiß)
+wa.mittelpunktSetzen(750,500)
+wa.radiusSetzen(40)
+wb.füllfarbeSetzen(weiß)
+wb.mittelpunktSetzen(765,480)
+wb.radiusSetzen(40)
+wc.füllfarbeSetzen(weiß)
+wc.mittelpunktSetzen(735,480)
+wc.radiusSetzen(40)
+wd.füllfarbeSetzen(weiß)
+wd.mittelpunktSetzen(1035,550)
+wd.radiusSetzen(40)
+we.füllfarbeSetzen(weiß)
+we.mittelpunktSetzen(1095,550)
+we.radiusSetzen(40)
+wf.füllfarbeSetzen(weiß)
+wf.mittelpunktSetzen(1065,570)
+wf.radiusSetzen(40)
+wg.füllfarbeSetzen(weiß)
+wg.mittelpunktSetzen(1500,390)
+wg.radiusSetzen(40)
+wh.füllfarbeSetzen(weiß)
+wh.mittelpunktSetzen(1560,390)
+wh.radiusSetzen(40)
+wi.füllfarbeSetzen(weiß)
+wi.mittelpunktSetzen(1530,410)
+wi.radiusSetzen(40)
+wj.füllfarbeSetzen(weiß)
+wj.mittelpunktSetzen(1950,600)
+wj.radiusSetzen(40)
+wp.füllfarbeSetzen(weiß)
+wp.mittelpunktSetzen(2010,600)
+wp.radiusSetzen(40)
+wo.füllfarbeSetzen(weiß)
+wo.mittelpunktSetzen(1980,620)
+wo.radiusSetzen(40)
+wn.füllfarbeSetzen(weiß)
+wn.mittelpunktSetzen(2360,430)
+wn.radiusSetzen(40)
+wq.füllfarbeSetzen(weiß)
+wq.mittelpunktSetzen(2300,430)
+wq.radiusSetzen(40)
+wt.füllfarbeSetzen(weiß)
+wt.mittelpunktSetzen(2330,450)
+wt.radiusSetzen(40)
+wu.füllfarbeSetzen(weiß)
+wu.mittelpunktSetzen(2780,360)
+wu.radiusSetzen(40)
+wv.füllfarbeSetzen(weiß)
+wv.mittelpunktSetzen(2820,360)
+wv.radiusSetzen(40)
+ww.füllfarbeSetzen(weiß)
+ww.mittelpunktSetzen(2800,380)
+ww.radiusSetzen(40)
+wx.füllfarbeSetzen(weiß)
+wx.mittelpunktSetzen(3270,570)
+wx.radiusSetzen(40)
+wy.füllfarbeSetzen(weiß)
+wy.mittelpunktSetzen(3230,570)
+wy.radiusSetzen(40)
+wz.füllfarbeSetzen(weiß)
+wz.mittelpunktSetzen(3250,590)
+wz.radiusSetzen(40)
+// Rumpf
+Rumpf.mittelpunktSetzen(0,40)
+Rumpf.radiusxSetzen(100)
+Rumpf.radiusySetzen(25)
+// Heck
+Heck.füllfarbeSetzen(grau)
+Heck.eckenSetzen(-40,64,-95,85,-80,56)
+Heck2.füllfarbeSetzen(grau)
+Heck2.eckenSetzen(-80,40,-60,40,-85,20)
+//Fenster
+Fenster.eckenSetzen(60,40,70,50)
+Fenster.füllfarbeSetzen(grau)
+Fenster1.eckenSetzen(10,40,20,50)
+Fenster1.füllfarbeSetzen(grau)
+Fenster2.eckenSetzen(-5,40,5,50)
+Fenster2.füllfarbeSetzen(grau)
+Fenster3.eckenSetzen(-20,40,-10,50)
+Fenster3.füllfarbeSetzen(grau)
+Fenster4.eckenSetzen(-35,40,-25,50)
+Fenster4.füllfarbeSetzen(grau)
+Fenster5.eckenSetzen(-50,40,-40,50)
+Fenster5.füllfarbeSetzen(grau)
+// Tür
+Tür.eckenSetzen(35,50,45,30)
+Tür.füllfarbeSetzen(grau)
+// Füße
+Fuß1.eckenSetzen(23,10,30,17)
+Fuß2.eckenSetzen(-15,10,-8,17)
+// Reifen
+Reifen1.mittelpunktSetzen(26,5)
+Reifen1.radiusSetzen(7)
+Reifen1.füllfarbeSetzen(schwarz)
+Reifen2.mittelpunktSetzen(-10,5)
+Reifen2.radiusSetzen(7)
+Reifen2.füllfarbeSetzen(schwarz)
+// Flügel
+Flügel.füllfarbeSetzen(grau)
+Flügel.eckenSetzen(-30,30,30,30,-40,10)
+// Flugzeug anfang Bahn2
+Flugzeug.verschiebenNach(-425,-430)
+Flugzeug.drehen(90)
+// Flugzeug fährt auf Startbahn
+wiederhole 370 mal
+Flugzeug.verschieben(0,1)
+*wiederhole
+Flugzeug.drehen(270)
+// Flugzeug fährt Startbahn
+wiederhole 120 mal
+Flugzeug.verschieben(1,0)
+*wiederhole
+// Flugzeug fliegt kurzzeitig
+wiederhole 80 mal
+Flugzeug.verschieben(1,2)
+*wiederhole
+// Reifen einfahren
+wiederhole 7 mal
+Reifen1.verschieben(-1,1)
+*wiederhole
+Reifen1.sichtbarSetzen(falsch)
+wiederhole 7 mal
+Reifen2.verschieben(-1,1)
+*wiederhole
+Reifen2.sichtbarSetzen(falsch)
+// Füße einfahren
+wiederhole 3 mal
+Fuß1.verschieben(0,1)
+*wiederhole
+Fuß1.sichtbarSetzen(falsch)
+wiederhole 3 mal
+Fuß2.verschieben(0,1)
+*wiederhole
+Fuß2.sichtbarSetzen(falsch)
+// Flugzeug fliegt
+wiederhole 55 mal
+Flugzeug.verschieben(1,2)
+*wiederhole
+// Kurze Hintergrund Verschiebung
+wiederhole 200 mal
+Hintergrund.verschieben(-1,-1)
+*wiederhole
+// Flugzeug
+wiederhole 120 mal
+Flugzeug.verschieben(1,1)
+*wiederhole
+// Hintergrund vorwärts
+wiederhole 800 mal
+Hintergrund.verschieben(-2,0)
+*wiederhole
+// Flugzeug Turbulenzen
+wiederhole 18 mal
+Flugzeug.verschieben(1,-2)
+*wiederhole
+wiederhole 2 mal
+Flugzeug.verschieben(1,0)
+*wiederhole
+wiederhole 2 mal
+Flugzeug.verschieben(1,-2)
+*wiederhole
+wiederhole 2 mal
+Flugzeug.verschieben(1,-2)
+*wiederhole
+wiederhole 2 mal
+Flugzeug.verschieben(1,2)
+*wiederhole
+wiederhole 1 mal
+Flugzeug.verschieben(1,-2)
+*wiederhole
+wiederhole 1 mal
+Flugzeug.verschieben(1,0)
+*wiederhole
+wiederhole 2 mal
+Flugzeug.verschieben(1,-2)
+*wiederhole
+wiederhole 25 mal
+Flugzeug.verschieben(1,-6)
+*wiederhole
+wiederhole 25 mal
+Flugzeug.verschieben(1,0)
+*wiederhole
+wiederhole 75 mal
+Flugzeug.verschieben(1,2)
+*wiederhole
+// Hintergrund
+wiederhole 600 mal
+Hintergrund.verschieben(-2,0)
+*wiederhole
+// Flugzeug landen
+wiederhole 200 mal
+Flugzeug.verschieben(1,-1)
+*wiederhole
+// Füße ausfahren
+Fuß1.sichtbarSetzen(wahr)
+wiederhole 3 mal
+Fuß1.verschieben(0,-1)
+*wiederhole
+Fuß2.sichtbarSetzen(wahr)
+wiederhole 3 mal
+Fuß2.verschieben(0,-1)
+*wiederhole
+// Räder ausfahren
+Reifen1.sichtbarSetzen(wahr)
+wiederhole 7 mal
+Reifen1.verschieben(1,-1)
+*wiederhole
+Reifen2.sichtbarSetzen(wahr)
+wiederhole 7 mal
+Reifen2.verschieben(1,-1)
+*wiederhole
+// Flugzeug landen
+wiederhole 300 mal
+Flugzeug.verschieben(1,-1)
+*wiederhole
