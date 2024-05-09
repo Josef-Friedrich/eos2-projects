@@ -1,6 +1,10 @@
+// Nach
 // https://www.youtube.com/watch?v=PCS9xtyAllc
 // https://drive.google.com/file/d/1Z7NuUkMzLtPCxHZLtNFVv2KLjvFlEIrl/view
 // https://sites.google.com/view/thotostutorial/informatik/jahrgang-7-wp-if/03-eos/06raketenstart-mondlandung
+
+// Änderungen kleineFlamme hinzugefügt
+// Standfüße in dunkelgrau
 
 erde:Rechteck
 erde.eckenSetzen(-300, 0, 300, -300)
@@ -14,23 +18,6 @@ all:Rechteck
 all.eckenSetzen(-300, 300, 300, 600)
 all.füllfarbeSetzen(schwarz)
 
-// Rakete
-rumpf:Rechteck
-rumpf.eckenSetzen(-30, -30, 30, 30)
-rumpf.füllfarbeSetzen(grau)
-spitze:Dreieck
-spitze.eckenSetzen(-30, 30, 30, 30, 0, 60)
-spitze.füllfarbeSetzen(grau)
-turbine:Dreieck
-turbine.eckenSetzen(-25, -30, 25, -30, 0, -45)
-turbine.füllfarbeSetzen(rot)
-standfuss1:Rechteck
-standfuss1.eckenSetzen(-20, -20, -15, -35)
-standfuss1.füllfarbeSetzen(grün)
-standfuss2:Rechteck
-standfuss2.eckenSetzen(20, -20, 15, -35)
-standfuss2.füllfarbeSetzen(grün)
-
 // Sonne setzen
 sonne:Kreis
 sonne.radius = 20
@@ -43,25 +30,48 @@ mond.radius = 60
 mond.mittelpunktSetzen(0, 400)
 mond.füllfarbeSetzen(weiß)
 
-// Hintergrund einrichten 
-hintergrund:Gruppe 
-hintergrund.schlucke(erde)
-hintergrund.schlucke(himmel)
-hintergrund.schlucke(all)
-hintergrund.schlucke(sonne)
-hintergrund.schlucke(mond)
+// Hintergrund zusammenfügen
+hintergrund:Gruppe
+hintergrund.hinzufügen(erde)
+hintergrund.hinzufügen(himmel)
+hintergrund.hinzufügen(all)
+hintergrund.hinzufügen(sonne)
+hintergrund.hinzufügen(mond)
 
-//Rakete zusammensetzen
+// Rakete
+rumpf:Rechteck
+rumpf.eckenSetzen(-30, -30, 30, 30)
+rumpf.füllfarbeSetzen(hellgrau)
+spitze:Dreieck
+spitze.eckenSetzen(-30, 30, 30, 30, 0, 60)
+spitze.füllfarbeSetzen(grau)
+flamme:Dreieck
+flamme.eckenSetzen(-25, -30, 25, -30, 0, -45)
+flamme.füllfarbeSetzen(rot)
+flammeKlein:Dreieck
+flammeKlein.eckenSetzen(-15, -30, 15, -30, 0, -40)
+flammeKlein.füllfarbeSetzen(gelb)
+standfussLinks:Rechteck
+standfussLinks.eckenSetzen(-20, -20, -15, -45)
+standfussLinks.füllfarbeSetzen(grau)
+standfussRechts:Rechteck
+standfussRechts.eckenSetzen(20, -20, 15, -45)
+standfussRechts.füllfarbeSetzen(grau)
+
+// Rakete zusammensetzen
 rakete:Gruppe
-rakete.schlucke(rumpf)
-rakete.schlucke(spitze)
-rakete.schlucke(turbine)
-rakete.schlucke(standfuss1)
-rakete.schlucke(standfuss2)
+rakete.hinzufügen(rumpf)
+rakete.hinzufügen(spitze)
+rakete.hinzufügen(flamme)
+rakete.hinzufügen(flammeKlein)
+rakete.hinzufügen(standfussLinks)
+rakete.hinzufügen(standfussRechts)
 
-//Raketenstart und Mondlandung
+// Raketenstart und Mondlandung
 wiederhole 100 mal
 	hintergrund.verschieben(0,-4)
 	Rakete.strecken(0.9)
+	flammeKlein.sichtbarSetzen(falsch)
 	Rakete.strecken(1.09)
+	flammeKlein.sichtbarSetzen(wahr)
 *wiederhole
